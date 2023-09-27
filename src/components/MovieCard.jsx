@@ -29,7 +29,7 @@ const MovieCard = ({title,poster_path,overview,vote_average, id}) => {
         <h5>{title}</h5>
 
         <span className={`tag `}>{vote_average.toFixed(1)}</span>
-        {/* toFixed ile tasmayi onleyip herkesin durumunun standart olmasini saglariz */}
+        {/* toFixed ile tasmayi onleyip herkesin durumunun standart olmasini saglariz. */}
       </div>
       <div className="movie-over">
         <h2>Overview</h2>
